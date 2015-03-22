@@ -53,6 +53,20 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Pj.AD\Pj.AD\Pj.AD.csproj">
+      <Project>{d9328800-ec66-4240-a56f-7ed32a811e35}</Project>
+      <Name>Pj.AD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Pj.Model\Pj.Model\Pj.Model.csproj">
+      <Project>{e1f17c32-321d-4e89-bfdd-6c06b3524440}</Project>
+      <Name>Pj.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Pj.NG\PJ.NG\Pj.NG.csproj">
+      <Project>{d0817b63-7885-4201-b89d-7ec6057fa73b}</Project>
+      <Name>Pj.NG</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
