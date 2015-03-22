@@ -7,7 +7,7 @@
     <ProjectGuid>{D9328800-EC66-4240-A56F-7ED32A811E35}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Pj.AD</RootNamespace>
+    <RootNamespace>Pj_AD</RootNamespace>
     <AssemblyName>Pj.AD</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pessoas_AD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

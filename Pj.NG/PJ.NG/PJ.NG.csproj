@@ -7,8 +7,8 @@
     <ProjectGuid>{D0817B63-7885-4201-B89D-7EC6057FA73B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PJ.NG</RootNamespace>
-    <AssemblyName>PJ.NG</AssemblyName>
+    <RootNamespace>Pj_NG</RootNamespace>
+    <AssemblyName>Pj.NG</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pessoas_NG.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
